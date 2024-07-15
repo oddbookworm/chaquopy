@@ -1,0 +1,11 @@
+{% set version = "2.30.5" %}
+
+package:
+  name: chaquopy-libsdl2
+  version: {{ version }}
+
+build:
+  number: 0
+
+source:
+  url: https://github.com/libsdl-org/SDL/archive/refs/tags/release-{{ version }}.tar.gz
